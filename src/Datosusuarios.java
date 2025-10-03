@@ -11,8 +11,11 @@ public class Datosusuarios {
         System.out.print("Introduce tu nombre: ");
         String nombre = sc.nextLine();
 
+        
+        
         System.out.print("Introduce tu edad: ");
         int edad= sc.nextInt(); sc.nextLine();
+
 
         System.out.print("Introduce tu correo electronico: ");
         String email = sc.nextLine();
@@ -27,7 +30,7 @@ public class Datosusuarios {
         } else {
             System.out.println("El usuario no puede ser creado porque el email introducido no es válido");
 
-            
+
         }
 
 }
